@@ -1,0 +1,31 @@
+{
+  "name": "node-zero",
+  "version": "0.0.1",
+  "description": "Cleanly use the latest JS/TS on the server with zero config, with HMR & linting.",
+  "main": "node-zero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshwilsonvu/node-zero.git"
+  },
+  "keywords": [
+    "node",
+    "hmr",
+    "babel",
+    "webpack",
+    "eslint",
+    "zero",
+    "config",
+    "package",
+    "development",
+    "production"
+  ],
+  "author": "Josh Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshwilsonvu/node-zero/issues"
+  },
+  "homepage": "https://github.com/joshwilsonvu/node-zero#readme"
+}
