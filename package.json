@@ -43,6 +43,8 @@
     "@babel/plugin-transform-flow-strip-types": "^7.8.3",
     "@babel/preset-env": "^7.7.4",
     "@babel/preset-typescript": "7.7.4",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-dynamic-import-node": "^2.3.0",
     "babel-plugin-macros": "2.7.1",
@@ -50,6 +52,10 @@
     "chalk": "^3.0.0",
     "eslint": "^6.8.0",
     "eslint-loader": "^3.0.3",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
     "pnp-webpack-plugin": "^1.5.0",
     "react-dev-utils": "^10.0.0",
     "start-server-webpack-plugin": "^2.2.5",
@@ -58,10 +64,16 @@
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
-    "eslint-config-recommended": "^4.0.0",
     "eslint-plugin-jest": "^23.6.0",
+    "fs-extra": "^8.1.0",
     "jest": "^25.1.0",
     "memfs": "^3.0.4",
+    "prettier": "^1.19.1",
+    "strip-ansi": "^6.0.0",
+    "typescript": "^3.7.5",
     "unionfs": "^4.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^3.2.1"
   }
 }

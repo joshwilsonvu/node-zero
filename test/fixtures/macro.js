@@ -1,9 +1,7 @@
 'use strict';
 
-const { Volume } = require("memfs");
-
 // Babel macros should work
-module.exports = Volume.fromJSON({
+module.exports = {
   "src/index.js": `
     import env from 'penv.macro';
     import inspect from 'inspect.macro';
@@ -19,4 +17,4 @@ module.exports = Volume.fromJSON({
     }
 
     export default foo;`
-}, '/app');
+};
