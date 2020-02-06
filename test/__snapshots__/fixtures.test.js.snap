@@ -1,8 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`fixtures basic program builds 1`] = `
+exports[`babel macros should build without warnings 1`] = `
 Array [
   "Creating an optimized production build...",
   "Compiled successfully.",
 ]
 `;
+
+exports[`babel macros should build without warnings 2`] = `"HI, Joe!"`;
+
+exports[`basic ES6 modules should build without warnings 1`] = `
+Array [
+  "Creating an optimized production build...",
+  "Compiled successfully.",
+]
+`;
+
+exports[`basic ES6 modules should build without warnings 2`] = `"Hello World"`;
+
+exports[`basic TypeScript should build without warnings 1`] = `
+Array [
+  "Creating an optimized production build...",
+  "Compiled successfully.",
+]
+`;
+
+exports[`basic TypeScript should build without warnings 2`] = `"Hello Joe"`;
